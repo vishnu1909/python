@@ -1,0 +1,16 @@
+l=[]
+a=[]
+b=[]
+n=int(input("Enter size of list "))
+for i in range(0,n):
+    e=int(input("Enter element of list "))
+    l.append(e)
+for i in l:
+    if(i%2==0):
+        a.append(i)
+    else:
+        b.append(i)
+print(a)
+print(b)
+k=[sum(a),sum(b)]
+print(k)
