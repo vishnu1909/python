@@ -1,0 +1,5 @@
+import numpy as np
+l=int(input("enter first"))
+u=int(input("enter the upper limit"))
+a=[(round(x,2),round(x**2,2)) for x in np.arange(l,u,0.1)]
+print(a)
