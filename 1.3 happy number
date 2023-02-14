@@ -1,4 +1,6 @@
 
+3.	Write an algorithm to determine if a number n is happy.
+
 def happy(n):
     temp=n
     sum=0
