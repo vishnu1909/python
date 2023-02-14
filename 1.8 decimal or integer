@@ -1,3 +1,7 @@
+8.	A valid number can be split up into these components (in order):
+1. A decimal number or an integer.
+2. (Optional) An 'e' or 'E', followed by an integer.
+
 def isNumber(s):
     valid_patterns = ('xd','x.d','xd.','xd.d','xsd','xsd.',
               'xsd.d','xded','x.ded','xd.ed','xd.ded',
