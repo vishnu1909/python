@@ -1,3 +1,6 @@
+2.	Write a Python function sumsquare(l) that takes a nonempty list of integers and returns a list [odd, even], where odd is the sum of squares of all the odd numbers in l and even is the sum of squares of all the even numbers in l.
+
+
 def sumsquare(l):
     odd=[]
     even=[]
