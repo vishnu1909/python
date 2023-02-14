@@ -1,3 +1,6 @@
+2.	Write a program that reads a year from the user and displays a message indicating whether or not it is a leap year.
+
+
 date = input("Enter the date to be checked: ")
 c=date.split("/")
 b = list(map(int,c))
