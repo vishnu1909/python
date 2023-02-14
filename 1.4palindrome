@@ -1,3 +1,5 @@
+4.	Given an integer x, return true if x is palindrome integer
+
 string1= input("Enter the integer: ")
 string2=string1[::-1]
 if string1==string2:
